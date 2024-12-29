@@ -23,9 +23,34 @@
 </head>
 
 <body>
-    <!-- Navbar -->
     <nav class="navbar">
-        <!-- <h1>Nostra</h1> -->
+        <img src="./img/logo1.png" alt="">
+    
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+    
+        <!-- Add this button -->
+        <button class="navbar-menu-toggle" onclick="showNavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    
+        <div class="side-navbar">
+            <p style="text-align: right;" onclick="closeNavbar()">
+                <i class="fa-solid fa-xmark"></i>
+            </p>
+            <div class="side-navbar-links">
+                <p class="side-navbar-link"><a href="index.html">Home</a></p>
+                <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+                <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar -->
+    <!-- <nav class="navbar">
+        <h1>Nostra</h1>
         <img  src="./img/logo1.png" alt="">
 
         <div class="navbar-links">
@@ -37,10 +62,10 @@
         <div class="navbar-menu-toggle" onclick="showNavbar()">
             <i class="fa-solid fa-bars"></i>
         </div>
-    </nav>
+    </nav> -->
 
     <!-- Side Navbar -->
-    <div class="side-navbar">
+    <!-- <div class="side-navbar">
         <p style="text-align: right;" onclick="closeNavbar()">
             <i class="fa-solid fa-xmark"></i>
         </p>
@@ -50,7 +75,7 @@
             <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
             <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
         </div>
-    </div>
+    </div> -->
 
     <!--Header-->
 
@@ -164,14 +189,14 @@
 
     <div class="news">
         <h2>Join our News Letter</h2>
-        <p>Signup for our email newsletter to get exclusive discounts and updates and more</p>
+        <p>Signup for our email newsletter to get exclusive Discounts and Updates</p>
        
         <div>
             <input type="text" class="search">
         </div>
 
         <div>
-            <button>Subscribe</button>
+            <button class="new-button">Subscribe</button>
         </div>
     </div>
 
@@ -184,13 +209,13 @@
                 <p>Discover Your Unseen Passion</p>
                 <div class="footer-icon-container">
                     <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffffff;" ></i>
                     <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
                 </div>
             </div>
         </div>
 
-        <p>@2024 Nostra.com</p>
+        <!-- <p>@2024 Nostra.com</p> -->
     </div>
 
 
